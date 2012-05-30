@@ -44,8 +44,8 @@ enyo.kind({
         onServiceTap: "",
     },
     titleTap: function(inSender, inEvent) {
-        this.setOpen(!this.$.EntryListDrawer.open)
-        this.doServiceTap({"open": this.getOpen()})
+        this.setOpen(!this.$.EntryListDrawer.open);
+        this.doServiceTap({"open": this.getOpen()});
     },
     openChanged: function(inSender, inEvent) {
         // enyo.log("openChanged" + this.getKey());
